@@ -111,18 +111,11 @@ class DemoNavbar extends React.Component {
                 <Nav className="navbar-nav-hover align-items-lg-center" navbar>
                   
                   <UncontrolledDropdown nav>
-                    <DropdownToggle nav>
-                      <i className="ni ni-collection d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Menu</span>
-                    </DropdownToggle>
-                    <DropdownMenu>
-                      <DropdownItem to="/portfolio" tag={Link}>
+                  
+                      <DropdownItem style={{background:'white'}} to="/portfolio" tag={Link}>
                       Portfolio 
                       </DropdownItem>
-                      <DropdownItem to="/profile-page" tag={Link}>
-                        Profile
-                      </DropdownItem>
-                    </DropdownMenu>
+                     
                   </UncontrolledDropdown>
                 </Nav>
                 <Nav className="align-items-lg-center ml-lg-auto" navbar>
